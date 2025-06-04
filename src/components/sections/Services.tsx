@@ -38,7 +38,7 @@ export const Services: React.FC = () => {
               <span className="text-[#123293]">justes</span>
             </div>
           </div>
-          <div className="flex justify-center items-center gap-8 self-stretch flex-wrap">
+          <div className="flex flex-col md:flex-row flex-wrap gap-6 md:gap-8 justify-center items-center w-full">
             <PricingCard
               title="Conception de produits <span class='text-[#123293]'>numériques utiles, ergonomiques et désirables</span>."
               description="Je vous accompagne de l'idée au prototype fonctionnel, en passant par la recherche utilisateur, les wireframes, les maquettes et les tests. Idéal pour les startups et équipes produiten phase de création ou d'évolution."

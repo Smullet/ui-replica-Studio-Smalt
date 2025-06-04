@@ -3,7 +3,7 @@ import React from 'react';
 export const Footer: React.FC = () => {
   return (
     <footer className="flex w-full flex-col justify-center items-center gap-16 bg-[#1C1E28] px-0 py-24">
-      <div className="flex w-full max-w-[1200px] items-center gap-6 px-6 py-0">
+      <div className="flex flex-col md:flex-row w-full max-w-[1200px] items-center gap-6 px-4 md:px-6 py-0">
         <div className="flex flex-col items-start gap-6 flex-1">
           <h2 className="font-bold text-[25px] text-[#E7EBF4] w-[554px] leading-[30px] uppercase">
             Pourquoi choisir Studio Smalt ?

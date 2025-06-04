@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ProjectExploration: React.FC = () => {
   return (
-    <section className="flex items-center max-w-[1356px] w-[calc(100%_-_48px)] mx-auto my-24 pl-12 pr-[214.89px] pt-[157.61px] pb-[69.39px] rounded-3xl">
+    <section className="flex flex-col md:flex-row items-center max-w-full md:max-w-[1356px] w-full mx-auto my-12 md:my-24 px-4 md:px-12 py-8 md:pt-[157.61px] md:pb-[69.39px] rounded-3xl">
       <div className="flex w-full max-w-[1017px] flex-col items-start gap-4">
         <div className="flex justify-center items-center pt-2">
           <h2 className="font-bold text-[31px] text-white w-[371px] h-20 shrink-0 leading-[37.2px]">

@@ -28,7 +28,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({
 }) => {
   return (
     <div className={`relative ${className}`}>
-      <div className="flex min-h-[980px] max-h-[980px] items-start gap-2.5 border flex-1 min-w-[280px] max-w-[336px] px-6 py-8 rounded-xl border-solid border-[#123293]">
+      <div className="flex min-h-[480px] md:min-h-[700px] lg:min-h-[980px] items-start gap-2.5 border flex-1 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-[336px] px-6 py-8 rounded-xl border-solid border-[#123293]">
         <div className="flex w-full flex-col items-start gap-16">
           <div className="flex h-[350px] min-h-[350px] flex-col justify-between items-start self-stretch">
             <div className="flex flex-col items-start gap-4 px-0 py-2">

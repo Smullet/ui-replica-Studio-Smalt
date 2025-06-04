@@ -12,8 +12,8 @@ export const Contact: React.FC = () => {
             </h2>
           </div>
         </div>
-        <div className="flex items-center gap-3 flex-wrap justify-center">
-          <div className="flex w-[351px] min-h-[425px] flex-col items-center gap-4 bg-[#123293] p-3 rounded-xl">
+        <div className="flex flex-col md:flex-row flex-wrap gap-6 justify-center items-center w-full">
+          <div className="flex w-full max-w-xs sm:max-w-sm md:max-w-md min-h-[425px] flex-col items-center gap-4 bg-[#123293] p-3 rounded-xl">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3594c97169ba15348a1b280e69c54291ffdb6259?placeholderIfAbsent=true"
               alt="Discussion"
@@ -26,7 +26,7 @@ export const Contact: React.FC = () => {
               Un échange de 30 minutes pour comprendre vos besoins et voir comment Studio Smalt peut transformer votre idée en produit digital concret et performant.
             </p>
           </div>
-          <div className="flex w-[351px] min-h-[425px] flex-col items-center gap-4 bg-[#F9D45C] p-3 rounded-xl">
+          <div className="flex w-full max-w-xs sm:max-w-sm md:max-w-md min-h-[425px] flex-col items-center gap-4 bg-[#F9D45C] p-3 rounded-xl">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6b42eab2bbc9bd1d19de2226a581dbecb2bbf56?placeholderIfAbsent=true"
               alt="Proposition"
@@ -39,7 +39,7 @@ export const Contact: React.FC = () => {
               En moins de 24h, recevez un devis clair et actionnable.
             </p>
           </div>
-          <div className="flex w-[351px] min-h-[425px] flex-col items-center gap-4 bg-[#1C1E28] p-3 rounded-xl">
+          <div className="flex w-full max-w-xs sm:max-w-sm md:max-w-md min-h-[425px] flex-col items-center gap-4 bg-[#1C1E28] p-3 rounded-xl">
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/c406a1b60ae11f1e3f2ad98d9cb627050331828e?placeholderIfAbsent=true"
               alt="Quick Start"
