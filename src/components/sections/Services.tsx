@@ -1,42 +1,88 @@
+
 import React from 'react';
 import { PricingCard } from '../cards/PricingCard';
 
 export const Services: React.FC = () => {
   const productDesignFeatures = [
     {
-      icon: <svg>...</svg>, // Include the SVG from the design
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
       text: "Analyse des besoins utilisateurs et des objectifs métier pour poser des bases solides."
     },
-    // Add all features from the design
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Wireframes et prototypes interactifs pour valider les concepts avant développement."
+    },
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Interface design et tests utilisateurs pour optimiser l'expérience."
+    },
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Design system et documentation pour faciliter le développement."
+    }
   ];
 
   const webDesignFeatures = [
     {
-      icon: <svg>...</svg>,
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
       text: "Un site clair, responsive et optimisé pour présenter votre activité avec impact."
     },
-    // Add all features from the design
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Optimisation SEO et performance pour un référencement naturel efficace."
+    },
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Formation pour gérer le contenu en autonomie après livraison."
+    }
   ];
 
   const facilitationFeatures = [
     {
-      icon: <svg>...</svg>,
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
       text: "Création sur-mesure de formats collaboratifs adaptés à ton contexte et à tes enjeux."
     },
-    // Add all features from the design
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Animation d'ateliers d'idéation, de cadrage ou de co-création avec vos équipes."
+    },
+    {
+      icon: <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13 4L6 11L3 8" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>,
+      text: "Accompagnement méthodologique pour structurer vos projets et aligner vos équipes."
+    }
   ];
 
   return (
-    <section className="flex w-full flex-col justify-center items-center bg-white pt-24 pb-32 px-0">
-      <div className="flex w-full max-w-[1356px] flex-col justify-center items-center px-6 py-0">
-        <div className="flex w-full flex-col items-center gap-[104px]">
-          <div className="flex flex-col items-center gap-[22px] self-stretch">
-            <div className="text-[#123293] text-center text-[61px] font-black leading-[64px] tracking-[-2.44px]">
-              <span className="text-[#191818]">Des offres</span>
+    <section className="flex w-full flex-col justify-center items-center bg-white pt-12 md:pt-24 pb-16 md:pb-32 px-4 md:px-0">
+      <div className="flex w-full max-w-[1356px] flex-col justify-center items-center px-4 md:px-6 py-0">
+        <div className="flex w-full flex-col items-center gap-16 md:gap-[104px]">
+          <div className="flex flex-col items-center gap-4 md:gap-[22px] self-stretch">
+            <h2 className="text-center text-3xl sm:text-4xl md:text-[61px] font-black leading-tight md:leading-[64px] tracking-[-1px] md:tracking-[-2.44px]">
+              <span className="text-[#191818]">Des offres </span>
               <span className="text-[#123293]">claires</span>
-              <span className="text-[#191818]">, des tarifs</span>
+              <span className="text-[#191818]">, des tarifs </span>
               <span className="text-[#123293]">justes</span>
-            </div>
+            </h2>
           </div>
           <div className="flex flex-col md:flex-row flex-wrap gap-6 md:gap-8 justify-center items-center w-full">
             <PricingCard

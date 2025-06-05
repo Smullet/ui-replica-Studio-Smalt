@@ -1,12 +1,13 @@
+
 import React from 'react';
 
 export const Contact: React.FC = () => {
   return (
-    <section className="flex w-full flex-col justify-center items-center bg-white pt-24 pb-32 px-0">
-      <div className="flex w-full max-w-[1356px] flex-col justify-center items-center gap-16 px-6 py-0">
-        <div className="flex w-full flex-col items-center gap-[104px]">
-          <div className="flex flex-col items-center gap-[22px] self-stretch">
-            <h2 className="text-[#123293] text-center text-[61px] font-black leading-[64px] tracking-[-2.44px]">
+    <section className="flex w-full flex-col justify-center items-center bg-white pt-12 md:pt-24 pb-16 md:pb-32 px-4 md:px-0">
+      <div className="flex w-full max-w-[1356px] flex-col justify-center items-center gap-8 md:gap-16 px-4 md:px-6 py-0">
+        <div className="flex w-full flex-col items-center gap-16 md:gap-[104px]">
+          <div className="flex flex-col items-center gap-4 md:gap-[22px] self-stretch">
+            <h2 className="text-center text-3xl sm:text-4xl md:text-[61px] font-black leading-tight md:leading-[64px] tracking-[-1px] md:tracking-[-2.44px]">
               <span className="text-[#191818]">Parlons de </span>
               <span className="text-[#123293]">votre projet</span>
             </h2>
